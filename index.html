@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Student Registration Form</h1>
+  <div class="container">
+    <form action="#">
+      <label for="name">Name:</label>
+      <input id="name" type="text" name="name"><br>
+      <label for="birthDate">Birth Date:</label>
+      <input id="birthDate" type="date" name="birthDate"><br>
+      <label for="fathersName">Father's Name:</label>
+      <input id="fathersName" type="text" name="fathersName"><br>
+      <label for="phone">Phone:</label>
+      <input id="phone" type="tel" name="phone"><br>
+      <label for="email">Email:</label>
+      <input id="email" type="email" name="email"><br>
+      <label for="address">Address:</label>
+      <input id="address" type="text" name="address"><br>
+      <label for="gender">Gender:</label>
+      <select name="gender" id="gender">
+        <option selected disabled>Select</option>
+        <option value="Male">Male</option>
+        <option value="Female">Fenale</option><br>
+      </select><br>
+      <div class="radio">
+        <label for="foculty">Foculty:</label>
+        <label for="ir">IR</label>
+        <input type="radio" id="ir" name="IR" value="IR">
+        <label for="it">IT</label>
+        <input type="radio" id="it" name="IT" value="IT">
+        <label for="ba">BA</label>
+        <input type="radio" id="ba" name="BA" value="BA">
+      </div>
+      <div class="hobbies">
+        <label for="hobies">Hobbies:</label><br>
+        <input type="checkbox" id="books" name="books" value="books">
+        <label for="vehicle1"> I like reading books</label><br>
+        <input type="checkbox" id="sports" name="sports" value="sports">
+        <label for="vehicle2"> I like playing football</label><br>
+        <input type="checkbox" id="movies" name="movies" value="movies">
+        <label for="vehicle3"> I like watching horror movies</label><br><br>
+      </div>
+      <div class="comments">
+        <label for="comments">Comments</label><br>
+        <textarea rows="4" cols="50" name="comment">
+        leave your comments here...</textarea>
+      </div>
+      <input type="submit" value="submit">
+      <input type="submit" value="cancel">
+     
+
+    
+    
+
+
+    </form>
+
+  </div>
+  
+</body>
+</html>

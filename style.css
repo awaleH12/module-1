@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap');
+
+/* RESET */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+} 
+/* img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
+/* || UTILITY CLASSES */
+
+/* || GENERAL STYLE */
+
+body{
+  font-family:'Nunito Sans', sans-serif;
+  min-height: 100vh;
+  background-color: #475569;
+  background-image: radial-gradient(whitesmoke, steelblue);
+}
+h1{
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 3rem;
+  margin: 2rem;
+  padding: 1rem;
+}
+.container{
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  border: 1px solid #333;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 20px;
+  background-image: radial-gradient(whitesmoke, rgba(70, 131, 180, 0.488));
+}
+.container input{
+  margin-bottom: 0.25rem;
+  padding: 0.25rem;
+  
+}
